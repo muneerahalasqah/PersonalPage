@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Muneerah's Personal Page</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="css/Sstyle.css" />
+</head>
+
+<body>
+
+<div class="header">
+<p align="center"><img src="crown.png"
+width="100px" lenght="100px"	/></p>
+<h1><font face="brush script mt" size="6">Survey</font></h1>
+<h2>
+<strong><font size="2">My personal page. This where a little of me is </font></strong>
+</h2>
+</div>
+
+<div id="wraper">
+<div id="navMenu">
+<ul>
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="#">About Me</a></li>    
+    <li><a href="Gallery.html">Gallery</a></li>
+     <li><a href="#">HTML work</a>
+        <ul>
+          <li><a href="Menu_eg.html">Menu</a></li>
+          <li><a href="Cal.html">Calculator</a></li>
+          <li><a href="drop_down.html">Dropdown</a></li>
+         </ul> </li>
+    <li><a href="Contact.html">Cantact</a></li>
+    <li><a href="survey.html">Survey</a></li>
+    </ul><!--en of main UL -->
+</div>  <!-- end of navMenu div -->
+        <br class="clearFloat"/>
+</div> <!--end of wraper dic -->
+
+    <div id="formcontainer">
+        <p>Please fill in this form:</p> <br/>
+    <form action="form.php" method="post">
+    Your First Name:  <input type="text" name="fname" size="30"/> <br/> <br/>
+    Your Last Name:    <input type="text" name="lname" size="30"/> <br/>
+    <br/><br/>
+    What did you think about my first html page? <br/>
+        <label><input type="radio" name="think" value="amazing" checked="checked"/> Amazing!</label>
+        <label><input type="radio" name="think" value="graet"/> Great.</label>
+        <label><input type="radio" name="think" value="neeadwork"/> It needs more work.</label>
+        <label><input type="radio" name="think" value="bad"/> Very Bad.</label> <br/>
+        <br/><br/>
+    What did you like about it? <br/>
+        <label><input type="checkbox" name="like" value="main"/> The main page.</label> <br/>
+        <label><input type="checkbox" name="like" value="about"/> About me page.</label> <br/>
+        <label><input type="checkbox" name="like" value="gallery"/> The Gallery.</label> <br/>
+        <label><input type="checkbox" name="like" value="htmlwork"/> The HTML work.</label> <br/>
+        <label><input type="checkbox" name="like" value="contact"/> The Contact page.</label> <br/>
+        <label><input type="checkbox" name="like" value="everything"/> Everything!.</label> <br/>
+    <br/><br/>
+        <label>Anything else you want to tell me? <br/>
+            <textarea name="anything" rows="4" cols="35">
+            </textarea> </label> <br/>
+        <input type="reset" name="reset" value="Reset"/>
+        <input type="submit" name="submit" value="Send!"/>
+    </form>
+
+    </div>
+<footer>
+All Rights Reserved - Designed By <strong>Muneerah Alasqah</strong> &copy; 2015</footer>
+</body>
+</html>

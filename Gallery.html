@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Photos</title>
+<!--[if IE]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="css/Gstyles.css"/>
+</head>
+
+<body>
+<div class="header">
+<p align="center"><img src="crown.png"
+width="100px" lenght="100px"	/></p>
+<h1><font face="brush script mt" size="6">Gallery</font></h1>
+<h2>
+<strong><font size="2">My personal page. This where a little of me is </font></strong>
+</h2>
+</div>
+
+<div id="wraper">
+<div id="navMenu">
+    <ul>
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="About_me.html">About Me</a></li>    
+    <li><a href="Gallery.html">Gallery</a></li>
+     <li><a href="#">HTML work</a>
+        <ul>
+          <li><a href="Menu_eg.html">Menu</a></li>
+          <li><a href="Cal.html">Calculator</a></li>
+          <li><a href="drop_down.html">Dropdown</a></li>
+         </ul> </li>
+    <li><a href="Contact.html">Cantact</a></li>
+    <li><a href="Survey.html">Survey</a></li>
+    </ul><!--en of main UL -->
+</div>  <!-- end of navMenu div -->
+    <br class="clearFloat"/>
+</div> <!--end of wraper dic -->
+    
+    <div class="gContainer">
+        <header><h3>Here is some pictures I took</h3></header>
+    <section id="content">
+        <div class="gallery">
+            <ul>
+            <li><a class="fancybox" rel="group" href="img/lg/img-01.jpg" title="Giant Wheel"><img src="img/tm/img-01.jpg" width="100" hieght="100" alt="roller"></a></li>
+                <li><a class="fancybox" rel="group" href="img/lg/img-02.jpg" title="After Noon Tea"><img src="img/tm/img-02.jpg" width="100" hieght="100" alt="tea"></a></li>
+                <li><a class="fancybox" rel="group" href="img/lg/img-03.jpg" title="Little Rain Drops"><img src="img/tm/img-03.jpg" width="100" hieght="100" alt="rain_drops"></a></li>
+                <li><a class="fancybox" rel="group" href="img/lg/img-04.jpg" title="Flying Birds in The Sky"><img src="img/tm/img-04.jpg" width="100" hieght="100" alt="birds in the sky"></a></li></ul>
+            <ul>
+                <li><a class="fancybox" rel="group" href="img/lg/img-05.jpg" title="Small Pieces of Art"><img src="img/tm/img-05.jpg" width="100" hieght="100" alt="peaces"></a></li>
+            <li><a class="fancybox" rel="group" href="img/lg/img-06.jpg" title="Heart Fireworks"><img src="img/tm/img-06.jpg" width="100" hieght="100" alt="fireworks"></a></li>
+                <li><a class="fancybox" rel="group" href="img/lg/img-07.jpg" title="A Great Sunrise of a Great Day"><img src="img/tm/img-07.jpg" width="100" hieght="100" alt="amazing sunrise"></a></li>
+                <li><a class="fancybox" rel="group" href="img/lg/img-08.jpg" title="A Beautiful Sunrise of a Productive Day"><img src="img/tm/img-08.jpg" width="100" hieght="100" alt="Another amazing sunrise"></a></li></ul>
+        </div>
+        </section>
+        <footer><p>All Rights Reserved</p></footer>
+    </div>
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+    
+    <footer style="margin-top:120px;">
+All Rights Reserved - Designed By <strong>Muneerah Alasqah</strong> &copy; 2015</footer>
+</body>
+
+</html>

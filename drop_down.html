@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>drop down menu</title>
+<style>
+body {font-family:arial, sans-serif}
+div.menu {font-weight:bold;
+	  color:white;
+	  border: 2px solid #225599;
+	  text-align:center;
+	  width:10em;
+	  background:#225599;}
+div.menu:hover a{ display:block}
+div.menu a {display:none;
+	    border-top:2px solid #225599;
+	    background-color:white;
+	    width:10em;
+	    text-decoration:none;
+	    color:black;}
+div.menu a:hover {background-color:#dfeeff }
+.container {
+    background-color:lightgray;
+    margin-top:1em;
+    width:100%;
+    padding-top:.5em;
+    height:500px;
+    }
+
+
+</style>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+
+<body>
+    <div class="header">
+<p align="center"><img src="crown.png"
+width="100px" lenght="100px"	/></p>
+<h1><font face="brush script mt" size="6">HTML work</font></h1>
+<h2>
+<strong><font size="2">My personal page. This where a little of me is </font></strong>
+</h2>
+</div>
+
+<div id="wraper">
+<div id="navMenu">
+    <ul>
+    <li><a href="IT271%20Proj..html">Home</a></li>
+    <li><a href="About_me.html">About Me</a></li>    
+    <li><a href="Gallery.html">Gallery</a></li>
+     <li><a href="#">HTML work</a>
+        <ul>
+          <li><a href="Menu_eg.html">Menu</a></li>
+          <li><a href="Cal.html">Calculator</a></li>
+          <li><a href="drop_down.html">Dropdown</a></li>
+         </ul> </li>
+    <li><a href="Contact.html">Cantact</a></li>
+    <li><a href="Survey.html">Survey</a></li>
+    </ul><!--en of main UL -->
+</div>  <!-- end of navMenu div -->
+        <br class="clearFloat"/>
+</div> <!--end of wraper dic -->
+    </div> 
+<div class="container">
+
+<div class="menu">Menu
+<a href="#">home</a>
+<a href="#">News</a>
+<a href="#">Articles</a>
+<a href="#">blog</a>
+<a href="#">contact</a>
+</div>
+   
+    </div>
+    <footer>
+All Rights Reserved - Designed By <strong>Muneerah Alasqah</strong> &copy; 2015</footer>
+</body>
+</html>

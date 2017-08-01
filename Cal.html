@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Calculator Example</title>
+<style>
+h3 { color:darkred;
+	font family:tohama, arial;
+	text-decoration:underline;
+	margin-top:1.5em;
+	font-size:1.5em; }
+
+table { background-color: white;
+	margin-top:3em;}
+tr,td {padding:10px;}
+.container {
+        background-color:lightgray;
+     margin-top:1em;
+        width:100%;
+        padding-top:.5em;
+    height:500px;
+    }
+
+</style>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+
+<body>
+    
+ <div class="header">
+<p align="center"><img src="crown.png"
+width="100px" lenght="100px"	/></p>
+<h1><font face="brush script mt" size="6">HTML work</font></h1>
+<h2>
+<strong><font size="2">My personal page. This where a little of me is </font></strong>
+</h2>
+</div>
+
+<div id="wraper">
+<div id="navMenu">
+    <ul>
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="About_me.html">About Me</a></li>    
+    <li><a href="Gallery.html">Gallery</a></li>
+     <li><a href="#">HTML work</a>
+        <ul>
+          <li><a href="Menu_eg.html">Menu</a></li>
+          <li><a href="Cal.html">Calculator</a></li>
+          <li><a href="drop_down.html">Dropdown</a></li>
+         </ul> </li>
+    <li><a href="Contact.html">Cantact</a></li>
+    <li><a href="Survey.html">Survey</a></li>
+    </ul><!--en of main UL -->
+        <br class="clearFloat"/>
+</div> <!--end of wraper dic -->
+    </div>   
+    
+    <div class="container">
+<h3 align="center">Here is a Simple Calculator</h>
+<br/>
+
+<form name="cal">
+<table border="2.5" align="center">
+<tr>
+<td colspan=4><input type=text Name="display"></td>
+</tr>
+<tr>
+<td><input type=button value="0" OnClick="cal.display.value+='0'"></td>
+<td><input type=button value="1" OnClick="cal.display.value+='1'"></td>
+<td><input type=button value="2" OnClick="cal.display.value+='2'"></td>
+<td><input type=button value="+" OnClick="cal.display.value+='+'"></td>
+</tr>
+<tr>
+<td><input type=button value="3" OnClick="cal.display.value+='3'"></td>
+<td><input type=button value="4" OnClick="cal.display.value+='4'"></td>
+<td><input type=button value="5" OnClick="cal.display.value+='5'"></td>
+<td><input type=button value="-" OnClick="cal.display.value+='-'"></td>
+</tr>
+<tr>
+<td><input type=button value="6" OnClick="cal.display.value+='6'"></td>
+<td><input type=button value="7" OnClick="cal.display.value+='7'"></td>
+<td><input type=button value="8" OnClick="cal.display.value+='8'"></td>
+<td><input type=button value="x" OnClick="cal.display.value+='*'"></td>
+</tr>
+<tr>
+<td><input type=button value="9" OnClick="cal.display.value+='9'"></td>
+<td><input type=button value="C" OnClick="cal.display.value=''"></td>
+<td><input type=button value="=" OnClick="cal.display.value=eval(cal.display.value)"></td>
+<td><input type=button value="/" OnClick="cal.display.value+='/'"></td>
+</tr>
+
+</table>
+</form>
+    <br/>
+<footer style="margin-top:120px">
+All Rights Reserved - Designed By <strong>Muneerah Alasqah</strong> &copy; 2015</footer>
+</div>
+</body>
+</html>
