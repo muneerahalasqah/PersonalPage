@@ -1,0 +1,95 @@
+body {
+background-color:#FFCCCC;
+background-image:url("dot.png");
+font-family:Courier New,brush script mt,arial;}
+
+.header h1 {
+text-shadow: 2px 2px #0D0D0D;
+color:#E4E4E4;
+face:brush script mt;
+text-align:center;
+}
+
+h2 { text-align:center;
+color:white;}
+
+a:hover {text-decoration:underline }
+
+.header{
+background-color:#FFCCCC;
+text-align: center;
+padding:.5em;
+}
+
+footer {
+    background-color:#404040;
+    color:white;
+    font-size:10pt;
+    text-align: center;
+    margin-top:1em;
+    height: auto;
+}
+
+
+#navMenu { 
+margin:0;
+padding:0;
+line-height:30px;
+ }
+
+#navMenu ul {
+margin:0;
+padding:0;
+}
+
+#navMenu li { 
+margin:0;
+padding:0;
+list-style: none;
+float:left;
+position: relative;
+background-color:darkgray;}
+
+#navMenu ul li a {
+text-align: center;
+font-family:Courier New,brush script mt,arial, cursive;
+text-decoration:none;
+height:30px;
+width:150px;
+display: block;
+color:white;
+}
+
+#navMenu ul ul {
+    position: absolute;
+    visibility: hidden;
+    top:30px;
+}
+
+#navMenu ul li:hover ul{
+    visibility: visible;
+}
+
+
+#navMenu li:hover {
+    background:darkred;
+}
+
+#navMenu ul li:hover ul li a:hover {
+    background:lightgray;
+}
+#navMenu a:hover {
+    color:yellow;
+}
+
+.clearFloat {
+ clear: both;
+    margin: 0;
+    padding:0;
+}
+#wraper {
+    margin:0;
+    padding:0;
+    background:darkgray;
+    align:center;
+}

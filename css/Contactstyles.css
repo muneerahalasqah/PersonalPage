@@ -1,0 +1,22 @@
+#midbox
+{
+    background-color:white;
+    width:800px;
+    margin:auto;
+    margin-top:1.5em;
+    padding-top:5em;
+    padding-bottom:5em;
+    border-radius: 25px;
+}
+#midbox p {
+    color:#404040;
+    text-align: center;
+}
+.container{
+   width:320px;
+    margin:auto;
+}
+
+.button {
+    display: inline;   
+}

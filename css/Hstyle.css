@@ -1,0 +1,111 @@
+#midbox {
+    background-color:white;
+    margin-top:30em;
+    padding:.5em;
+    padding-left:1em;
+    padding-right:1em;
+    width:55%;
+    margin:auto;
+}
+
+#midbox p {
+    color:darkred;
+    text-align: center;
+    font-weight:bold;
+    font-size:20pt;
+    margin-top:0;
+}
+#qpost{
+    padding:.5em;
+    color:darkgoldenrod;
+    background-color:lightgray;
+    text-align:center;
+    font-size:20pt;
+}
+
+footer {
+    background-color:#404040;
+    color:white;
+    font-size:10pt;
+    text-align: center;
+    margin-top:1em;
+    height:2%;
+}
+
+#loading{
+    margin:0;
+    padding:0;
+}
+
+#main-container{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    font-size:14px;
+}
+
+.analog-clock{
+    width:140px;
+    display:inline-block;
+    clear:both;
+    float:left;
+    margin-left:6%;
+    margin-top:4em;
+}
+
+.cal{
+    padding:1em;
+    margin-left:6%;
+    margin-top:2em;
+    color:white;
+    background-color:darkred;
+    text-align:center;
+    width:120px;
+    display:inline-block;
+    clear:both;
+    float:left;
+    border-radius:10px;
+}
+
+#day{
+    margin:0;
+    font-size:16px;
+}
+
+#date{
+    margin:0;
+    font-size:100px;
+}
+
+#month-year{
+    margin:0;
+    font-size:16px;
+}
+
+#clock-face{
+    stroke:black;
+    stroke-width:2px;
+    fill:white;
+}
+
+#h-hand, #m-hand, #s-hand, #s-tail{
+    stroke:black;
+    stroke-linecap:round;
+}
+
+#h-hand{
+    stroke-width:3px;
+}
+
+#m-hand{
+    stroke-width:2px;
+}
+
+#s-hand{
+    stroke-width:1px;
+}
+
+.time-text{
+    text-align:center;
+    background-color: white;
+} 
